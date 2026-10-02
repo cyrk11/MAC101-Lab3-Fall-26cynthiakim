@@ -19,7 +19,7 @@ int main(){
     if(credits>=60&&gpa>=2.0&&holds==0&&courseReq==0){
         cout<<"Congratulations! You are eligible to graduate!\n";
     }
-//else block using nested if statemeents to give user helpful feedback if they do not qualify
+//else block using nested if statements to give user helpful feedback if they do not qualify
 else {
     cout<<"You are not eligible to graduate yet. Please review the missing requirements below:\n";
     if(credits<60){
